@@ -1,2 +1,3 @@
-# cs-urs-master
-Basic DB operations, created in C#
+# A CRUD Created in C# with love
+
+This is program do basic DB operations (Create, Read, Update and Delete), created in C# by Luiz
