@@ -1,0 +1,18 @@
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\This is a CRUD.exe.config
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\This is a CRUD.exe
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\This is a CRUD.pdb
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This is a CRUD.csprojAssemblyReference.cache
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This_is_a_CRUD.Properties.Resources.resources
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This is a CRUD.csproj.GenerateResource.cache
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This is a CRUD.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This is a CRUD.exe
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This is a CRUD.pdb
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This_is_a_CRUD.main.resources
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\Google.Protobuf.dll
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\MySql.Data.dll
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\Google.Protobuf.xml
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\MySql.Data.xml
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\obj\Debug\This is a CRUD.csproj.CopyComplete
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\Correios.Net.dll
+C:\Users\Luiz\3D Objects\CSharp\This is a CRUD\This is a CRUD\bin\Debug\Correios.Net.pdb

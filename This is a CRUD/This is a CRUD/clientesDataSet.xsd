@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="clientesDataSet" targetNamespace="http://tempuri.org/clientesDataSet.xsd" xmlns:mstns="http://tempuri.org/clientesDataSet.xsd" xmlns="http://tempuri.org/clientesDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="clientesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="clientesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.This_is_a_CRUD.Properties.Settings.GlobalReference.Default.clientesConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="clientes_tableTableAdapter" GeneratorDataComponentClassName="clientes_tableTableAdapter" Name="clientes_table" UserDataComponentName="clientes_tableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="clientesConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_cliente`, `nome_cliente`, `cpf`, `rg` FROM `clientes_table`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="parentes_tableTableAdapter" GeneratorDataComponentClassName="parentes_tableTableAdapter" Name="parentes_table" UserDataComponentName="parentes_tableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="clientesConnectionString (Settings)" DbObjectName="clientes.parentes_table" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_cliente`, `nome_parente` FROM `parentes_table`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="clientesDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="clientesDataSet" msprop:Generator_UserDSName="clientesDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="clientes_table" msprop:Generator_TableClassName="clientes_tableDataTable" msprop:Generator_TableVarName="tableclientes_table" msprop:Generator_TablePropName="clientes_table" msprop:Generator_RowDeletingName="clientes_tableRowDeleting" msprop:Generator_RowChangingName="clientes_tableRowChanging" msprop:Generator_RowEvHandlerName="clientes_tableRowChangeEventHandler" msprop:Generator_RowDeletedName="clientes_tableRowDeleted" msprop:Generator_UserTableName="clientes_table" msprop:Generator_RowChangedName="clientes_tableRowChanged" msprop:Generator_RowEvArgName="clientes_tableRowChangeEvent" msprop:Generator_RowClassName="clientes_tableRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="parentes_table" msprop:Generator_TableClassName="parentes_tableDataTable" msprop:Generator_TableVarName="tableparentes_table" msprop:Generator_TablePropName="parentes_table" msprop:Generator_RowDeletingName="parentes_tableRowDeleting" msprop:Generator_RowChangingName="parentes_tableRowChanging" msprop:Generator_RowEvHandlerName="parentes_tableRowChangeEventHandler" msprop:Generator_RowDeletedName="parentes_tableRowDeleted" msprop:Generator_UserTableName="parentes_table" msprop:Generator_RowChangedName="parentes_tableRowChanged" msprop:Generator_RowEvArgName="parentes_tableRowChangeEvent" msprop:Generator_RowClassName="parentes_tableRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
